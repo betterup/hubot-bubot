@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: KcMk2Ryx+s9wmuOXCfH3KovjRqTiiauDl0pe4nqYxo9ftdPa4Iej3R1j8gL0vIvi2DZbBi2OuD29XEJhjPi65Rs/ynqDwfJskUIifhjkUfrAfYS23Ys3XuDaV3JH7E/SGavwkVyk8zlZjHwa8VOohxhhOLUn93+iWUyqxaNKOck=
+  app:
+    master: hubot-bubot
+  on:
+    repo: betterup/hubot-bubot
