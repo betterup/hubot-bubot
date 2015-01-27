@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-youtube",
   "hubot-google-hangouts",
-  "hubot-sonnekboom"
+  "hubot-sonnekboom",
+  "hubot-heroku"
 ]
