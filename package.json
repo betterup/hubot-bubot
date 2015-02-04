@@ -23,7 +23,10 @@
     "hubot-sonnekboom": "^1.0.2",
     "hubot-thesimpsons": "*",
     "hubot-heroku": "^0.1.10",
-    "dotenv": "*"
+    "dotenv": "*",
+    "flip": "*",
+    "request": "*",
+    "cheerio": "*"
   },
   "engines": {
     "node": "0.10.x"
