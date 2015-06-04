@@ -5,11 +5,16 @@
   "author": "bubot bubot@betterup.co",
   "description": "BetterUP Robot",
   "dependencies": {
+    "cheerio": "*",
+    "dotenv": "*",
+    "flip": "*",
     "hubot": "^2.11.0",
     "hubot-diagnostics": "0.0.1",
+    "hubot-google-hangouts": "^0.7.1",
     "hubot-google-images": "^0.1.2",
     "hubot-google-translate": "^0.1.0",
     "hubot-help": "^0.1.1",
+    "hubot-heroku": "^0.1.10",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-maps": "0.0.1",
     "hubot-pugme": "^0.1.0",
@@ -18,15 +23,12 @@
     "hubot-scripts": "^2.5.16",
     "hubot-shipit": "^0.1.1",
     "hubot-slack": "^3.2.1",
-    "hubot-youtube": "^0.1.2",
-    "hubot-google-hangouts": "^0.7.1",
     "hubot-sonnekboom": "^1.0.2",
     "hubot-thesimpsons": "*",
-    "hubot-heroku": "^0.1.10",
-    "dotenv": "*",
-    "flip": "*",
-    "request": "*",
-    "cheerio": "*"
+    "hubot-youtube": "^0.1.2",
+    "mkdirp": "^0.5.1",
+    "remove": "^0.1.5",
+    "request": "*"
   },
   "engines": {
     "node": "0.10.x"

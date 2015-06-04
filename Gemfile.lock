@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    gitx (2.13.4)
+      octokit
+      rugged (~> 0.21.0)
+      thor
+    multipart-post (2.0.0)
+    octokit (3.8.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
+    rugged (0.21.4)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gitx
