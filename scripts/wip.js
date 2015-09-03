@@ -36,7 +36,7 @@ module.exports = function(robot) {
       } else {
         var message = 'These issues are currently in progress for ' + orgProject + ':';
         issues.forEach(function(issue) {
-          message += "\n* #" + issue.number + ' - <' + issue.url + '|' + issue.title + '>';
+          message += "\n* #" + issue.number + ' - ' + issue.title + ' - ' + issue.url;
         });
         msg.send(message);
       }
