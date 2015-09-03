@@ -28,9 +28,6 @@ module.exports = function(robot) {
     var organization = projectWithOrganization[projectWithOrganization.length - 2] || defaultGithubOrganization;
     var project = projectWithOrganization[projectWithOrganization.length - 1]
 
-    console.log("organization: " + organization);
-    console.log("project: " + project);
-
     var orgProject = organization + '/' + project;
     msg.send('Checking for work in progress in ' + orgProject + '...');
     github.get('/repos/' + orgProject + '/issues?labels=' + wipLabel + '&sort=updated&direction=asc', function(issues) {
@@ -39,7 +36,7 @@ module.exports = function(robot) {
       } else {
         var message = 'These issues are currently in progress for ' + orgProject + ':';
         issues.forEach(function(issue) {
-          message += "\n* #" + issue.number + ' ' + issue.title + ' - ' + issue.url;
+          message += "\n* #" + issue.number + ' - [' + issue.title + '](' + issue.url + ')';
         });
         msg.send(message);
       }
