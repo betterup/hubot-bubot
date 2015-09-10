@@ -14,5 +14,6 @@
   "hubot-sonnekboom",
   "hubot-heroku",
   "hubot-thesimpsons",
-  "hubot-wip"
+  "hubot-wip",
+  "hubot-project-snapshot"
 ]
