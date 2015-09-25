@@ -17,7 +17,7 @@
     "hubot-heroku": "^0.1.16",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-maps": "0.0.2",
-    "hubot-project-snapshot": "^0.3.2",
+    "hubot-project-snapshot": "^0.3.3",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
