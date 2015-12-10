@@ -5,6 +5,7 @@
   "author": "bubot bubot@betterup.co",
   "description": "BetterUP Robot",
   "dependencies": {
+    "flip": "^0.1.1",
     "hubot": "2.17.0",
     "hubot-cron": "0.2.9",
     "hubot-diagnostics": "0.0.1",
