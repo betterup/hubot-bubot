@@ -2,7 +2,6 @@
   "hubot-cron",
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-github-create-issues",
   "hubot-google-images",
   "hubot-google-translate",
