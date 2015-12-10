@@ -5,7 +5,7 @@
   "author": "bubot bubot@betterup.co",
   "description": "BetterUP Robot",
   "dependencies": {
-    "flip": "^0.1.1",
+    "flip": "0.1.1",
     "hubot": "2.17.0",
     "hubot-cron": "0.2.9",
     "hubot-diagnostics": "0.0.1",
@@ -25,7 +25,8 @@
     "hubot-sonnekboom": "1.0.2",
     "hubot-thesimpsons": "1.1.4",
     "hubot-waffle-board": "1.0.0",
-    "hubot-youtube": "1.0.1"
+    "hubot-youtube": "1.0.1",
+    "request": "2.67.0"
   },
   "engines": {
     "node": "0.12.x"
