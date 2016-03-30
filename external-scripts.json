@@ -15,5 +15,6 @@
   "hubot-sonnekboom",
   "hubot-heroku",
   "hubot-thesimpsons",
-  "hubot-waffle-board"
+  "hubot-waffle-board",
+  "hubot-circleci"
 ]
