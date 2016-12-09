@@ -2,7 +2,7 @@
   "hubot-cron",
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-heroku-keepalive",
+  "hubot-github-identity",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
@@ -15,6 +15,6 @@
   "hubot-sonnekboom",
   "hubot-heroku",
   "hubot-thesimpsons",
-  "hubot-wip",
-  "hubot-project-snapshot"
+  "hubot-waffle-board",
+  "hubot-circleci"
 ]

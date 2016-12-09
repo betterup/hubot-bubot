@@ -14,7 +14,7 @@ You can test your hubot by running the following.
 
 You can start bubot locally by running:
 
-    % bin/hubot
+    % REDIS_URL=redis://betterup.dev:6379 bin/hubot
 
 You'll see some start up output about where your scripts come from and a
 prompt:
