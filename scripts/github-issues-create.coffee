@@ -15,7 +15,7 @@ module.exports = (robot) ->
         res.reply "Oops: #{err}"
       when 'github user'
         auth_url = "#{process.env.HEROKU_URL}/github/identity"
-        res.reply "Sorry, you haven't told me your GitHub username.  Enter your Github API token at #{auth_url} and then tell me who you are\n\n> bubot I am GITHUB_USERNAME"
+        res.reply "Sorry, you haven't told me your GitHub username.  Enter your Github API token at #{auth_url} and then tell me who you are\n\n> #{robot.name} I am GITHUB_USERNAME"
 
   parseLabels = (rawLabels) ->
     if rawLabels then rawLabels.slice(1, -2).split(",") else rawLabels
