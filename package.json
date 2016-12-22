@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "bubot bubot@betterup.co",
-  "description": "BetterUP Robot",
+  "description": "BetterUp Robot",
   "dependencies": {
     "cheerio": "0.19.0",
     "dotenv": "1.2.0",
@@ -13,7 +13,7 @@
     "hubot-circleci": "^0.8.1",
     "hubot-cron": "0.2.9",
     "hubot-diagnostics": "0.0.1",
-    "hubot-github-identity": "^0.10.0",
+    "hubot-github-issues-create": "betterup/hubot-github-create-issues",
     "hubot-google-hangouts": "0.7.1",
     "hubot-google-images": "0.2.6",
     "hubot-google-translate": "0.2.0",
