@@ -2,6 +2,7 @@
   "hubot-cron",
   "hubot-diagnostics",
   "hubot-help",
+  "hubot-github-identity",
   "hubot-github-create-issues",
   "hubot-google-images",
   "hubot-google-translate",
