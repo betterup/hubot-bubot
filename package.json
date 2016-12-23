@@ -12,6 +12,7 @@
     "hubot-circleci": "^0.8.1",
     "hubot-cron": "0.2.9",
     "hubot-diagnostics": "0.0.1",
+    "hubot-github-identity": "*",
     "hubot-github-create-issues": "betterup/hubot-github-create-issues",
     "hubot-google-hangouts": "0.7.1",
     "hubot-google-images": "0.2.6",
